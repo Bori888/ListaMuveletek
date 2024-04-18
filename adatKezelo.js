@@ -5,6 +5,7 @@ export function rendez(lista, kulcs, rIrany) {
     });
     return rlista;
 }
+
 /* szorgalmi: ékezetes karakterek átalakítása és utána rendezés replaceAll */
 
 export function szures(lista, keresoSzoveg) {
