@@ -14,3 +14,8 @@ export function szures(lista, keresoSzoveg) {
     });
     return szurtLista;
 }
+
+export function torol(lista, index){
+    lista.splice(index,1);
+    return lista;
+}

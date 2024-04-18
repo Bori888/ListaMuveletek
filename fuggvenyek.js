@@ -7,7 +7,7 @@ export function tablazatLetrehoz(lista){
         <td>${elem.nev}</td>
         <td>${elem.kor}</td>
         <td>${elem.nem?"Férfi":"Nő"}</td>
-        <td><button id="${index}">🗑️</button></td>
+        <td><button id="${index}" class="torol">🗑️</button></td>
         </tr>`;
     });
     txt += "</tbody></table></div>";
